@@ -164,6 +164,7 @@ header nav ul li {
     font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
+    border-right: 3px solid;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -339,6 +340,18 @@ header nav ul li {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+  }
+
+  .service-grid-container {
+    display: grid;
+  }
+
+  .service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
   }
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
